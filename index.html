@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- header section start -->
-    <header class="container">
+    <header class="container" id="#header">
         <!-- navber start -->
         <section>
             <nav class="navbar navbar-expand-lg bg-light">
@@ -28,24 +28,24 @@
                     <div class="collapse navbar-collapse ms-5" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item mx-4">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#success">Success</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">Disabled</a>
-                            </li>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">About us</a>
+                                <a class="nav-link" href="#question">Questions</a>
                             </li>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">Subscribe</a>
+                                <a class="nav-link" href="#about">About us</a>
+                            </li>
+                            </li>
+                            <li class="nav-item mx-4">
+                                <a class="nav-link" href="#subscribe">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -67,7 +67,7 @@
                     <div class="carousel-item active">
                         <img src="./images/banner/banner-1.jpg" class="d-block w-100 opacity-75" alt="...">
                         <div>
-                            <div class="carousel-caption d-none d-md-block mb-5 .text-light">
+                            <div class="carousel-caption d-none d-md-block mb-5 text-white">
                                 <h5 class="fs-1 fw-bold">Get Started Digital Learning</h5>
                                 <p> Digital learning increases access to education and knowledge while
                                     empowering
@@ -115,13 +115,12 @@
     <!-- main section start -->
     <main class="container">
         <!-- popular courses  -->
-        <section>
+        <section id="courses">
             <div class="d-flex justify-content-center my-5">
                 <div class="w-50 text-center">
                     <h1>Discover Our Popular Courses</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque culpa minima quos natus qui.
-                        Sunt
-                    </p>
+                    <p>To help learners decide what to explore in this exciting time of technical change, we've compiled
+                        the top ten most popular courses across domains in 2023.</p>
                 </div>
             </div>
             <div>
@@ -130,7 +129,7 @@
                         <img src="./images/course/course-1.png" alt="">
                         <div class="m-4">
                             <h5>Fundamental Of UI/UX Design</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.
+                            <p>The five main principles of UX design. There are many important principles within UX.
                             </p>
                             <p class="text-info ">Price : 20$</p>
                         </div>
@@ -139,7 +138,8 @@
                         <img src="./images/course/course-2.png" alt="">
                         <div class="m-4">
                             <h5>Javascript Basic to advanced</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p>A perfect JavaScript course for all those who want to learn and master JavaScript
+                                programming skills right from scratch.</p>
                             <p class="text-info ">Price : 20$</p>
                         </div>
                     </div>
@@ -149,7 +149,8 @@
                         <img src="./images/course/course-3.png" alt="">
                         <div class="m-4">
                             <h5>Fullstack Web Development</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p>A full stack web developer is a person who can develop both client and server software.
+                            </p>
                             <p class="text-info ">Price : 20$</p>
                         </div>
                     </div>
@@ -157,7 +158,8 @@
                         <img src="./images/course/course-4.png" alt="">
                         <div class="m-4">
                             <h5>Digital Marketing</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p>Digital marketing, also called online marketing, is the promotion of brands to connect
+                                with potential customers.</p>
                             <p class="text-info ">Price : 20$</p>
                         </div>
                     </div>
@@ -167,7 +169,8 @@
                         <img src="./images/course/course-5.png" alt="">
                         <div class="m-4">
                             <h5>Photography Basic Rules</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p>To use the golden ratio in photography, you simply apply it to the placement of objects
+                                in your composition.</p>
                             <p class="text-info ">Price : 20$</p>
                         </div>
                     </div>
@@ -175,7 +178,8 @@
                         <img src="./images/course/course-6.png" alt="">
                         <div class="m-4">
                             <h5>Motion Graphics</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p>Motion graphics are pieces of animation or digital footage which create the illusion of
+                                motion or rotation.</p>
                             <p class="text-info ">Price : 20$</p>
                         </div>
                     </div>
@@ -186,18 +190,21 @@
             </div>
         </section>
         <!-- explore earning area  -->
-        <section class="my-5">
+        <section class="my-5" id="about">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 d-flex justify-content-center">
                     <img class="img-fluid rounded" src="./images/working.png" alt="">
                 </div>
                 <div class="col-lg-6 p-5">
                     <h1>Explore The elearning institure</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, repellendus, expedita nemo hic
-                        quia odio ratione, fugit eveniet maiores eum facilis ex aspernatur culpa nihil consectetur quasi
-                        cum minima? Assumenda!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facere incidunt corrupti in sint
-                        explicabo possimus distinctio alias officia est.</p>
+                    <p>Education is changing. As educators, at WISS, we know that teaching methods have to adapt and
+                        match to current trends. We aim to inspire our students to be leaders of their learning in order
+                        to become mindful global citizens. Therefore our way of teaching is adapted to the demands of
+                        todays world.</p>
+
+                    <p>WISS is future-oriented and flexible when it comes to introducing new approaches to teaching as,
+                        for us, students development always comes first. This academic year 2019/2020 is full of new
+                        and exciting projects regarding new approaches to teaching in Early Years.</p>
                     <div class="d-flex flex-wrap justify-content-between">
                         <div>
                             <h2 class="fw-bold">3.2k</h2>
@@ -212,19 +219,20 @@
                             <P>Rating & Review</P>
                         </div>
                     </div>
-                    <button class="btn btn-primary">Read More</button>
+                    <button class="btn btn-primary" id="subscribe">Read More</button>
                 </div>
             </div>
         </section>
-        <section class="bg-info my-5 text-center rounded">
+        <section class="bg-primary my-5 text-center rounded">
             <div class="row justify-content-center align-items-center p-5">
                 <div class="col-lg-6 col-md-12 text-white">
                     <h1>Ready to join?</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+                    <p>Even if you're unemployed, you still shouldn't say you're available to start the next day. Saying
+                        you're able to start immediately implies that either this job is your first choice, or that your
+                        job search isn't going very well.</p>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <button type="button" class="btn btn-light text-info fw-bold" data-bs-toggle="modal"
+                    <button type="button" class="btn btn-light text-primary fw-bold" data-bs-toggle="modal"
                         data-bs-target="#exampleModal" data-bs-whatever="@fat">Register Now</button>
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -260,12 +268,12 @@
             </div>
         </section>
         <!-- meet successful students  -->
-        <section>
+        <section id="success">
             <div class="d-flex justify-content-center my-4">
                 <div class="w-50 text-center">
                     <h1>Meet Our Successfull Students</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+                    <p>Successful students take advantage of extra credit opportunities when offered. They demonstrate
+                        that they care about their grades and are willing to work to improve them.</p>
                 </div>
             </div>
             <div>
@@ -312,22 +320,12 @@
                 <button class="btn btn-primary">View all coures</button>
             </div>
         </section>
-        <section>
-            <div class="d-flex justify-content-center align-items-center flex-column ">
-                <div class="w-50 text-center">
-                    <h1>Some Students Feedback</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when
-                        looking at its layout.</p>
-                </div>
-            </div>
-        </section>
-        <section class="d-flex justify-content-center align-items-center flex-column ">
+        <section class="d-flex justify-content-center align-items-center flex-column" id="question">
             <div class=" w-75 my-4">
                 <div class="text-center">
                     <h1>Frequently Asked Questions</h1>
-                    <p>It is a long established fact that a reader will be distracted by
-                        <br> the readable content of a page when looking at its layout.
+                    <p>FAQs enable you to deal with specific queries that your customers have about your business.
+                        <br> They also represent another way to reach out and connect with your target audience.
                     </p>
                 </div>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -379,10 +377,10 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
+                        <h2 class="accordion-header" id="flush-headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
                                 What is semantic tag?
                             </button>
                         </h2>
@@ -432,7 +430,7 @@
         <!-- display only for large device  -->
         <section class="d-none d-sm-none d-md-none d-lg-block">
             <div class="d-flex flex-column my-5">
-                <h1 class="text-center my-4">Trusted by over 800+ companies</h1>
+                <h1 class="text-center mb-5">Trusted by over 800+ companies</h1>
                 <div class="d-flex justify-content-around">
                     <img class="img-fluid" src="./images/company/company-1.png" alt="">
                     <img class="img-fluid" src="./images/company/company-2.png" alt="">
@@ -450,8 +448,7 @@
         <div class="d-flex justify-content-center align-items-center text-center">
             <div class="w-50 text-white p-4">
                 <h3>Mentee to Mentor</h3>
-                <p>Office 41, Zawaya Buildin, Ghala Muscat,
-                    Sultanate of Oman</p>
+                <p>Office 43, Gulshan, Dhaka Bangladesh</p>
                 <p>Privacy Ploicy | Terms of use</p>
                 <i class="bi bi-facebook"></i>
                 <i class="mx-2 bi bi-twitter"></i>
